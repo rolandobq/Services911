@@ -1,0 +1,8 @@
+com.example.services911.app-osmdroid-android-6.1.20-0 C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\res
+com.example.services911.app-pngs-1 C:\Users\rolan\Downloads\Services911\Services911\app\build\generated\res\pngs\debug
+com.example.services911.app-resValues-2 C:\Users\rolan\Downloads\Services911\Services911\app\build\generated\res\resValues\debug
+com.example.services911.app-packageDebugResources-3 C:\Users\rolan\Downloads\Services911\Services911\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.services911.app-packageDebugResources-4 C:\Users\rolan\Downloads\Services911\Services911\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.services911.app-debug-5 C:\Users\rolan\Downloads\Services911\Services911\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.example.services911.app-debug-6 C:\Users\rolan\Downloads\Services911\Services911\app\src\debug\res
+com.example.services911.app-main-7 C:\Users\rolan\Downloads\Services911\Services911\app\src\main\res

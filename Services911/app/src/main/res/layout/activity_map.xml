@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F9FC"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingStart="18dp"
+        android:paddingEnd="18dp">
+
+        <TextView
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@drawable/primary_button"
+            android:gravity="center"
+            android:text="✚"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="911 Services"
+            android:textColor="#18364A"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="28dp"
+            android:background="@drawable/chip_soft"
+            android:gravity="center"
+            android:text="Prototipo"
+            android:textColor="#168DCE"
+            android:textSize="10sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <org.osmdroid.views.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="14dp"
+            android:background="@drawable/ticket_card"
+            android:elevation="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="12dp"
+            android:paddingTop="5dp"
+            android:paddingEnd="6dp"
+            android:paddingBottom="5dp">
+
+            <TextView
+                android:layout_width="26dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="⌕"
+                android:textColor="#168DCE"
+                android:textSize="28sp" />
+
+            <EditText
+                android:id="@+id/etBuscarDireccion"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:hint="Buscar dirección"
+                android:imeOptions="actionSearch"
+                android:inputType="textPostalAddress"
+                android:singleLine="true"
+                android:textColor="#203746"
+                android:textColorHint="#8B9DAA"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/btnBuscarDireccion"
+                android:layout_width="74dp"
+                android:layout_height="42dp"
+                android:background="@drawable/primary_button"
+                android:backgroundTint="#168DCE"
+                android:stateListAnimator="@null"
+                android:text="Buscar"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="18dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnMiUbicacion"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:background="@drawable/ticket_card"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="4dp"
+                android:stateListAnimator="@null"
+                android:text="◎ Mi ubicación"
+                android:textAllCaps="false"
+                android:textColor="#168DCE"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btnSeleccionarLugar"
+                android:layout_width="120dp"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/ticket_card"
+                android:backgroundTint="#FFFFFF"
+                android:elevation="4dp"
+                android:stateListAnimator="@null"
+                android:text="⌖ Elegir lugar"
+                android:textAllCaps="false"
+                android:textColor="#168DCE"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingTop="16dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="18dp">
+
+        <View
+            android:layout_width="42dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#DBE7EE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:background="#22A06B" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:text="UBICACIÓN DE LA EMERGENCIA"
+                android:textColor="#277E9F"
+                android:textSize="11sp"
+                android:letterSpacing="0.06"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="42dp"
+                android:gravity="center"
+                android:text="⌖"
+                android:textColor="#168DCE"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/txtUbicacion"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Selecciona dónde ocurre la emergencia"
+                android:textColor="#203746"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="6dp"
+            android:text="Toca el mapa para mover el marcador con precisión."
+            android:textColor="#8297A5"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnConfirmarUbicacion"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/primary_button"
+            android:backgroundTint="#168DCE"
+            android:stateListAnimator="@null"
+            android:text="⌖  Confirmar ubicación"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/bottom_nav" />
+
+</LinearLayout>

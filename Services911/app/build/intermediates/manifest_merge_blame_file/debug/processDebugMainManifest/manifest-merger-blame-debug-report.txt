@@ -1,0 +1,147 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.services911"
+4    android:versionCode="2"
+5    android:versionName="1.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <!-- INTERNET PARA EL MAPA -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:6:5-7:54
+12-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:7:9-51
+13
+14    <!-- UBICACIÓN -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:10:5-11:66
+15-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:11:9-63
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:6:5-7:54
+16-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:7:9-51
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:15:5-16:68
+17-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:16:9-65
+18
+19    <supports-screens
+19-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:9:5-12:40
+20        android:anyDensity="true"
+20-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:10:9-34
+21        android:largeScreens="true"
+21-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:11:9-36
+22        android:normalScreens="true" />
+22-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:12:9-37
+23
+24    <uses-feature
+24-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:14:5-16:36
+25        android:name="android.hardware.location.network"
+25-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:15:9-57
+26        android:required="false" />
+26-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:16:9-33
+27    <uses-feature
+27-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:17:5-19:36
+28        android:name="android.hardware.location.gps"
+28-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:18:9-53
+29        android:required="false" />
+29-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:19:9-33
+30    <uses-feature
+30-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:20:5-22:36
+31        android:name="android.hardware.telephony"
+31-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:21:9-50
+32        android:required="false" />
+32-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:22:9-33
+33    <uses-feature
+33-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:23:5-25:36
+34        android:name="android.hardware.wifi"
+34-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:24:9-45
+35        android:required="false" />
+35-->[org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:25:9-33
+36
+37    <application
+37-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:19:5-88:19
+38        android:allowBackup="true"
+38-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:21:9-35
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:label="911 Services"
+41-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:23:9-37
+42        android:supportsRtl="true"
+42-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:25:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.Services911" >
+44-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:27:9-49
+45
+46        <!-- PERFIL -->
+47
+48        <activity
+48-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:32:9-34:40
+49            android:name="com.example.services911.ProfileActivity"
+49-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:33:13-44
+50            android:exported="false" />
+50-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:34:13-37
+51        <activity
+51-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:36:9-38:40
+52            android:name="com.example.services911.TicketDetailActivity"
+52-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:37:13-49
+53            android:exported="false" />
+53-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:38:13-37
+54
+55        <!-- TICKETS ACTIVOS -->
+56
+57        <activity
+57-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:43:9-45:40
+58            android:name="com.example.services911.ActiveTicketActivity"
+58-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:44:13-49
+59            android:exported="false" />
+59-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:45:13-37
+60
+61        <!-- CREAR / EDITAR TICKET -->
+62
+63        <activity
+63-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:50:9-52:40
+64            android:name="com.example.services911.TicketActivity"
+64-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:51:13-43
+65            android:exported="false" />
+65-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:52:13-37
+66
+67        <!-- MAPA -->
+68
+69        <activity
+69-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:57:9-59:40
+70            android:name="com.example.services911.MapActivity"
+70-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:58:13-40
+71            android:exported="false" />
+71-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:59:13-37
+72
+73        <!-- MENÚ PRINCIPAL -->
+74
+75        <activity
+75-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:64:9-66:40
+76            android:name="com.example.services911.MainActivity"
+76-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:65:13-41
+77            android:exported="false" />
+77-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:66:13-37
+78
+79        <!-- PANTALLA INICIAL -->
+80
+81        <activity
+81-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:71:9-85:20
+82            android:name="com.example.services911.SplashActivity"
+82-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:72:13-43
+83            android:exported="true" >
+83-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:73:13-36
+84            <intent-filter>
+84-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:75:13-83:29
+85                <action android:name="android.intent.action.MAIN" />
+85-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:77:17-78:65
+85-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:78:21-62
+86
+87                <category android:name="android.intent.category.LAUNCHER" />
+87-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:80:17-81:71
+87-->C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:81:21-68
+88            </intent-filter>
+89        </activity>
+90    </application>
+91
+92</manifest>

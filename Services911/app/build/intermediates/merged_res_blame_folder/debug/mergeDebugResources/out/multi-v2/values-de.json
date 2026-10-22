@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.services911.app-mergeDebugResources-3:/values-de/values-de.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\rolan\\.gradle\\caches\\9.3.0\\transforms\\a7365c0402d232487361323f4d21a867\\workspace\\transformed\\osmdroid-android-6.1.20\\res\\values-de\\values-de.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,94,196,244,294,335,384,433,480",
+                        "endColumns": "38,101,47,49,40,48,48,46,45",
+                        "endOffsets": "89,191,239,289,330,379,428,475,521"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="screen_bg">#F6F8FC</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="primary">#11284B</color>
+
+    <color name="primary_soft">#EAF1FF</color>
+
+    <color name="danger">#E63946</color>
+
+    <color name="danger_soft">#FFE9EC</color>
+
+    <color name="success">#22C55E</color>
+
+    <color name="text_main">#111827</color>
+
+    <color name="text_secondary">#64748B</color>
+
+    <color name="stroke">#E2E8F0</color>
+
+    <color name="nav_selected">#EEF2FF</color>
+
+    <!-- Compatibilidad con el diseño anterior -->
+    <color name="navy">#11284B</color>
+
+    <color name="light">#F6F8FC</color>
+
+    <color name="muted">#64748B</color>
+
+</resources>

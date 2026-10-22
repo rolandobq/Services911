@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F9FC">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#FFFFFF"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp">
+
+        <TextView
+            android:id="@+id/btnBackTicket"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:gravity="center"
+            android:text="‹"
+            android:textSize="30sp"
+            android:textColor="#18364A"
+            android:contentDescription="Regresar"/>
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Nuevo reporte"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#18364A"/>
+
+        <View
+            android:layout_width="48dp"
+            android:layout_height="48dp"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DATOS DEL REPORTE"
+                android:textColor="#327DAB"
+                android:textSize="11sp"
+                android:letterSpacing="0.10"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/card"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:padding="16dp">
+
+                <TextView
+                    android:layout_width="44dp"
+                    android:layout_height="44dp"
+                    android:gravity="center"
+                    android:background="@drawable/chip_soft"
+                    android:text="✚"
+                    android:textSize="23sp"
+                    android:textColor="#168DCE"/>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Registra una emergencia"
+                        android:textSize="17sp"
+                        android:textStyle="bold"
+                        android:textColor="#18364A"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:text="La información ayudará a organizar el servicio correcto."
+                        android:textSize="12sp"
+                        android:textColor="#738694"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Perfil de la persona afectada"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="#253D50"/>
+
+            <Spinner
+                android:id="@+id/spPerson"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/card"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+            <TextView
+                android:id="@+id/txtProfileInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#EAF5FD"
+                android:padding="14dp"
+                android:text="Selecciona un familiar registrado."
+                android:textColor="#526F83"
+                android:textSize="12sp"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="Teléfono de contacto"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="#253D50"/>
+
+            <EditText
+                android:id="@+id/etTicketPhone"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/card"
+                android:hint="33 0000 0000"
+                android:inputType="phone"
+                android:singleLine="true"
+                android:padding="14dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Tipo de emergencia"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#253D50"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Selecciona una de las siguientes categorías"
+                android:textSize="12sp"
+                android:textColor="#738694"/>
+
+            <Spinner
+                android:id="@+id/spCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+            <LinearLayout
+                android:id="@+id/layoutCategoryCards"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Descripción"
+                android:textColor="#253D50"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etDescription"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/card"
+                android:gravity="top|start"
+                android:hint="Describe qué sucedió y el estado de la persona..."
+                android:inputType="textCapSentences|textMultiLine"
+                android:padding="14dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Prioridad"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#253D50"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="9dp"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <Button
+                    android:id="@+id/btnPriorityHigh"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/secondary_button"
+                    android:text="● Alta"
+                    android:textAllCaps="false"
+                    android:textColor="#E5484D"
+                    android:textSize="13sp"/>
+
+                <Button
+                    android:id="@+id/btnPriorityMedium"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/secondary_button"
+                    android:text="● Media"
+                    android:textAllCaps="false"
+                    android:textColor="#DA8C24"
+                    android:textSize="13sp"/>
+
+                <Button
+                    android:id="@+id/btnPriorityLow"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/secondary_button"
+                    android:text="● Baja"
+                    android:textAllCaps="false"
+                    android:textColor="#168DCE"
+                    android:textSize="13sp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtPriorityInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Prioridad sugerida según el reporte."
+                android:textColor="#738694"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/lblAmbType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="Tipo de ambulancia"
+                android:textColor="#253D50"
+                android:textSize="14sp"
+                android:textStyle="bold"/>
+
+            <Spinner
+                android:id="@+id/spAmbType"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/card"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Ubicación de la emergencia"
+                android:textColor="#253D50"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:layout_marginTop="8dp"
+                android:background="@drawable/card"
+                android:hint="Calle, número y colonia"
+                android:inputType="textPostalAddress"
+                android:padding="14dp"
+                android:textSize="14sp"/>
+
+            <Button
+                android:id="@+id/btnMapLocation"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/secondary_button"
+                android:backgroundTint="#E6F4FD"
+                android:text="⌖  Seleccionar ubicación en mapa"
+                android:textAllCaps="false"
+                android:textColor="#168DCE"
+                android:textStyle="bold"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="Servicios asociados"
+                android:textColor="#253D50"
+                android:textSize="15sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/txtDispatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:background="#EAF5FD"
+                android:padding="15dp"
+                android:text="El sistema calculará los servicios asociados."
+                android:textColor="#326A8A"
+                android:textSize="13sp"
+                android:lineSpacingExtra="4dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:text="Simulación académica. No se envía al 911 real."
+                android:textColor="#8395A2"
+                android:textSize="12sp"/>
+
+            <Button
+                android:id="@+id/btnCreateTicket"
+                android:layout_width="match_parent"
+                android:layout_height="58dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/primary_button"
+                android:backgroundTint="#168DCE"
+                android:text="Generar reporte"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <include layout="@layout/bottom_nav"/>
+
+</LinearLayout>

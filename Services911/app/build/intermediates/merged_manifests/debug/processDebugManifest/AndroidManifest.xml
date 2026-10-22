@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.services911"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="24"
+        android:targetSdkVersion="35" />
+
+    <!-- INTERNET PARA EL MAPA -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- UBICACIÓN -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true" />
+
+    <uses-feature
+        android:name="android.hardware.location.network"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:label="911 Services"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.Services911" >
+
+        <!-- PERFIL -->
+
+        <activity
+            android:name="com.example.services911.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.services911.TicketDetailActivity"
+            android:exported="false" />
+
+        <!-- TICKETS ACTIVOS -->
+
+        <activity
+            android:name="com.example.services911.ActiveTicketActivity"
+            android:exported="false" />
+
+        <!-- CREAR / EDITAR TICKET -->
+
+        <activity
+            android:name="com.example.services911.TicketActivity"
+            android:exported="false" />
+
+        <!-- MAPA -->
+
+        <activity
+            android:name="com.example.services911.MapActivity"
+            android:exported="false" />
+
+        <!-- MENÚ PRINCIPAL -->
+
+        <activity
+            android:name="com.example.services911.MainActivity"
+            android:exported="false" />
+
+        <!-- PANTALLA INICIAL -->
+
+        <activity
+            android:name="com.example.services911.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

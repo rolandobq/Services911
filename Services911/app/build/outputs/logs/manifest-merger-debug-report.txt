@@ -1,0 +1,134 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:3:1-90:12
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:3:1-90:12
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:3:1-90:12
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:3:1-90:12
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:2:1-27:12
+	package
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:3:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:6:5-7:54
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:7:9-51
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:10:5-11:66
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:11:9-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:15:5-16:68
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:16:9-65
+application
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:19:5-88:19
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:19:5-88:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+	android:supportsRtl
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:25:9-35
+	android:label
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:23:9-37
+	android:allowBackup
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:27:9-49
+activity#com.example.services911.ProfileActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:32:9-34:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:33:13-44
+activity#com.example.services911.TicketDetailActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:37:13-49
+activity#com.example.services911.ActiveTicketActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:44:13-49
+activity#com.example.services911.TicketActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:50:9-52:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:52:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:51:13-43
+activity#com.example.services911.MapActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:58:13-40
+activity#com.example.services911.MainActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:64:9-66:40
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:65:13-41
+activity#com.example.services911.SplashActivity
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:71:9-85:20
+	android:exported
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:73:13-36
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:72:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:75:13-83:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:77:17-78:65
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:78:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:80:17-81:71
+	android:name
+		ADDED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml:81:21-68
+uses-sdk
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:5:5-7:41
+MERGED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:5:5-7:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\rolan\Downloads\Services911\Services911\app\src\main\AndroidManifest.xml
+supports-screens
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:9:5-12:40
+	android:largeScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:12:9-37
+	android:anyDensity
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:10:9-34
+uses-feature#android.hardware.location.network
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:14:5-16:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:16:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:15:9-57
+uses-feature#android.hardware.location.gps
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:17:5-19:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:19:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:18:9-53
+uses-feature#android.hardware.telephony
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:20:5-22:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:22:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:21:9-50
+uses-feature#android.hardware.wifi
+ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:23:5-25:36
+	android:required
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:25:9-33
+	android:name
+		ADDED from [org.osmdroid:osmdroid-android:6.1.20] C:\Users\rolan\.gradle\caches\9.3.0\transforms\a7365c0402d232487361323f4d21a867\workspace\transformed\osmdroid-android-6.1.20\AndroidManifest.xml:24:9-45

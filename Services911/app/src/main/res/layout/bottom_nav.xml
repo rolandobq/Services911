@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="76dp"
+    android:background="#FFFFFF"
+    android:elevation="8dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:paddingStart="14dp"
+    android:paddingTop="8dp"
+    android:paddingEnd="14dp"
+    android:paddingBottom="8dp">
+
+    <LinearLayout
+        android:id="@+id/btnNavMap"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Ir al mapa">
+
+        <ImageView
+            android:id="@+id/iconNavMap"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_mylocation"
+            android:tint="#168DCE"
+            android:contentDescription="Mapa" />
+
+        <TextView
+            android:id="@+id/txtNavMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Mapa"
+            android:textColor="#18364A"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnNavTicket"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Ir a tickets">
+
+        <ImageView
+            android:id="@+id/iconNavTicket"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_agenda"
+            android:tint="#168DCE"
+            android:contentDescription="Tickets" />
+
+        <TextView
+            android:id="@+id/txtNavTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Tickets"
+            android:textColor="#18364A"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnNavProfile"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:contentDescription="Ir al perfil">
+
+        <ImageView
+            android:id="@+id/iconNavProfile"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_myplaces"
+            android:tint="#168DCE"
+            android:contentDescription="Perfil" />
+
+        <TextView
+            android:id="@+id/txtNavProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Perfil"
+            android:textColor="#18364A"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>
